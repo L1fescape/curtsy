@@ -1,0 +1,19 @@
+{
+  "name": "leapjs-gesture-direction",
+  "version": "0.0.1",
+  "description": "More useful gestures for the leap motion.",
+  "keywords": ["leap", "motion", "leapjs", "gesture", "direction"],
+  "main": "lib/gesture-direction.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/L1fescape/leapjs-gesture-directions",
+  "issues": "https://github.com/L1fescape/leapjs-gesture-directions/issues",
+  "author": "Andrew Kennedy",
+  "license": "BSD",
+  "directories": {
+    "example": "example",
+    "lib": "lib"
+  },
+  "readmeFilename": "README.md"
+}
