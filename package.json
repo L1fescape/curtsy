@@ -1,19 +1,19 @@
 {
-  "name": "leapjs-gesture-direction",
+  "name": "curtsy",
   "version": "0.0.1",
   "dependencies": {
   },
   "devDependencies": {
     "leapjs": "~0.2.0-beta6"
   },
-  "description": "More useful gestures for the leap motion.",
-  "keywords": ["leap", "motion", "leapjs", "gesture", "direction"],
-  "main": "lib/gesture-direction.js",
+  "description": "Determine the direction of gestures for Leapjs.",
+  "keywords": ["leap", "motion", "leapjs", "gesture", "direction", "curtsy"],
+  "main": "lib/curtsy.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/L1fescape/leapjs-gesture-directions"
+    "url": "https://github.com/L1fescape/curtsy"
   },
-  "issues": "https://github.com/L1fescape/leapjs-gesture-directions/issues",
+  "issues": "https://github.com/L1fescape/curtsy/issues",
   "author": "Andrew Kennedy",
   "license": "BSD",
   "directories": {

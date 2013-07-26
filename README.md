@@ -1,5 +1,17 @@
-# Leapjs Gesture Direction
+# Leap Gestures
 
-More useful gestures for the leap motion.
+Interpret direction of gestures for Leapjs
 
+## Install
 
+`npm install leap-gestures`
+
+## Example
+
+##### Cirle Direction Demo
+
+`node examples/circle.js`
+
+##### Swipe Direction Demo
+
+`node examples/swipe.js`

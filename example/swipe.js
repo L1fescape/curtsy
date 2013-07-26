@@ -1,12 +1,12 @@
 var Leap = require('leapjs')
-  , controller = new Leap.Controller({ enableGestures:true })
+  , controller = new Leap.Controller({enableGestures:true})
   , direction = require('../lib/curtsy')
 
 
 controller.on("frame", function(frame) {
   if (frame.gestures.length) {
     var gesture = frame.gestures[0];
-    if (gesture.type == 'circle') {
+    if (gesture.type == 'swipe') {
       console.log("circle", direction(gesture));
     }
   }
