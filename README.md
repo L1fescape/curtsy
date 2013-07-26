@@ -1,10 +1,24 @@
-# Leap Gestures
+# Curtsy
 
-Interpret direction of gestures for Leapjs
+Simple library for determining the direction of a circle or swipe gesture for Leap Motion's Leapjs library.
+
+## Supported Directions
+
+* Circle
+ * Clockwise
+ * Counter-Clockwise
+* Swipe
+ * Left
+ * Right
+ * Up
+ * Down
+ * Forward
+ * Back
+
 
 ## Install
 
-`npm install leap-gestures`
+`npm install curtsy`
 
 ## Example
 
@@ -15,3 +29,12 @@ Interpret direction of gestures for Leapjs
 ##### Swipe Direction Demo
 
 `node examples/swipe.js`
+
+
+## Future Plans
+
+* More advanced gesture direction (hand twist, flick, hand close, etc)
+
+## Contribute
+
+If you have a feature you'd like to add or a gesture you'd like supported, submit an issue through GitHub or better yet, a pull request!

@@ -14,8 +14,11 @@
     "url": "https://github.com/L1fescape/curtsy"
   },
   "issues": "https://github.com/L1fescape/curtsy/issues",
-  "author": "Andrew Kennedy",
-  "license": "BSD",
+  "author": {
+    "name": "Andrew Kennedy", 
+    "url": "http://github.com/L1fescape"
+  },
+  "license": "MIT",
   "directories": {
     "example": "example",
     "lib": "lib"
