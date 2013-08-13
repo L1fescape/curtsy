@@ -20,16 +20,43 @@ Simple library for determining the direction of a circle or swipe gesture for Le
 
 `npm install curtsy`
 
-## Example
+## Examples
 
-##### Cirle Direction Demo
+#### Circle
 
-`node examples/circle.js`
+```js
+controller.on('frame', function(frame) {
+  if (frame.gestures.length) {
+    var gesture = frame.gestures[0];
+    if (gesture.type == 'circle') {
+      console.log('circle', direction(gesture));
+      //=> circle { count: 1, type: 'counter-clockwise' }
+      console.log(direction(gesture).type);
+      //=> counter-clockwise
+    }
+  }
+});
+```
 
-##### Swipe Direction Demo
+You can find this example in `example/circle.js`.
 
-`node examples/swipe.js`
+#### Swipe
 
+```js
+controller.on('frame', function(frame) {
+  if (frame.gestures.length) {
+    var gesture = frame.gestures[0];
+    if (gesture.type == 'swipe') {
+      console.log('swipe', direction(gesture));
+      //=> swipe { distance: 123.363, coordinate: 'x', type: 'right' }
+      console.log(direction(gesture).type);
+      //=> right
+    }
+  }
+});
+```
+
+You can find this example in `example/swipe.js`.
 
 ## Future Plans
 
