@@ -1,0 +1,29 @@
+{
+  "name": "curtsy",
+  "version": "0.0.2",
+  "homepage": "https://github.com/L1fescape/curtsy",
+  "authors": [
+    "Andrew Kennedy <akennedy2292@gmail.com>"
+  ],
+  "description": "Determine the direction of gestures for Leapjs.",
+  "main": "curtsy.js",
+  "keywords": [
+    "leap",
+    "motion",
+    "leapjs",
+    "gesture",
+    "direction",
+    "curtsy"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "leapjs": "~0.2"
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Circle Example</title>
+  <script src="//js.leapmotion.com/0.2.0/leap.min.js"></script>
+  <script src="../curtsy.js"></script>
+</head>
+<body>
+  <h2>Gesture: <span id="gesture"></span></h2>
+  
+<script> 
+  var controller = new Leap.Controller({enableGestures: true});
+  controller.loop(function(frame) {
+    if (frame.gestures.length) {
+      var gesture = frame.gestures[0];
+      if (gesture.type == 'circle') {
+        document.getElementById('gesture').innerHTML = "Circle " + Curtsy.direction(gesture).type;
+      }
+    }
+  });
+</script>
+</body>
+</html>

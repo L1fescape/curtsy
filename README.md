@@ -16,11 +16,13 @@ Simple library for determining the direction of a circle or swipe gesture for Le
  * Back
 
 
-## Install
+## Use with NodeJS
+
+### Install
 
 `npm install curtsy`
 
-## Examples
+### Examples
 
 #### Circle
 
@@ -57,6 +59,47 @@ controller.on('frame', function(frame) {
 ```
 
 You can find this example in `example/swipe.js`.
+
+## Use with Bower
+
+### Install 
+
+```
+bower install curtsy
+```
+
+### Examples
+
+#### Circle
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Circle Example</title>
+  <script src="//js.leapmotion.com/0.2.0/leap.min.js"></script>
+  <script src="../curtsy.js"></script>
+</head>
+<body>
+  <h2>Gesture: <span id="gesture"></span></h2>
+  
+<script> 
+  var controller = new Leap.Controller({enableGestures: true});
+  controller.loop(function(frame) {
+    if (frame.gestures.length) {
+      var gesture = frame.gestures[0];
+      if (gesture.type == 'circle') {
+        document.getElementById('gesture').innerHTML = "Circle " + Curtsy.direction(gesture).type;
+      }
+    }
+  });
+</script>
+</body>
+</html>
+```
+
+You can find this example in `example/circle.html`.
 
 ## Future Plans
 
