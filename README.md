@@ -20,7 +20,9 @@ Simple library for determining the direction of a circle or swipe gesture for Le
 
 ### Install
 
-`npm install curtsy`
+```
+npm install curtsy
+```
 
 ### Examples
 
