@@ -4,7 +4,8 @@
   "dependencies": {
   },
   "devDependencies": {
-    "leapjs": "~0.2"
+    "leapjs": "~0.2",
+    "karma": "~0.10"
   },
   "description": "Determine the direction of gestures for Leapjs.",
   "keywords": ["leap", "motion", "leapjs", "gesture", "direction", "curtsy"],
@@ -23,5 +24,8 @@
     "example": "example",
     "lib": "lib"
   },
-  "readmeFilename": "README.md"
+  "readmeFilename": "README.md",
+  "scripts": {
+    "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
+  }
 }
