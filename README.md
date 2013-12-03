@@ -1,4 +1,4 @@
-# Curtsy
+# Curtsy [![Build Status](https://travis-ci.org/L1fescape/curtsy.png?branch=master)](http://travis-ci.org/L1fescape/curtsy)
 
 Simple library for determining the direction of a circle or swipe gesture for Leap Motion's Leapjs library.
 
