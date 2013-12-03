@@ -21,7 +21,7 @@ Simple library for determining the direction of a circle or swipe gesture for Le
 ### Install
 
 ```
-npm install curtsy
+npm install curtsy --save
 ```
 
 ### Examples
@@ -67,7 +67,7 @@ You can find this example in `example/swipe.js`.
 ### Install 
 
 ```
-bower install curtsy
+bower install curtsy --save
 ```
 
 ### Examples
