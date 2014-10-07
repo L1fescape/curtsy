@@ -1,6 +1,6 @@
-var Leap = require('leapjs')
-  , controller = new Leap.Controller({ enableGestures:true })
-  , direction = require('../lib/curtsy')
+var Leap = require('leapjs'),
+  controller = new Leap.Controller({ enableGestures:true }),
+  direction = require('../lib/curtsy');
 
 
 controller.on('frame', function(frame) {

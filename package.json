@@ -1,31 +1,29 @@
 {
   "name": "curtsy",
   "version": "0.0.3",
-  "dependencies": {
-  },
-  "devDependencies": {
-    "leapjs": "~0.2",
-    "karma": "~0.10"
-  },
   "description": "Determine the direction of gestures for Leapjs.",
   "keywords": ["leap", "motion", "leapjs", "gesture", "direction", "curtsy"],
-  "main": "lib",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/L1fescape/curtsy"
-  },
-  "issues": "https://github.com/L1fescape/curtsy/issues",
+  "main": "curtsy.js",
   "author": {
-    "name": "Andrew Kennedy", 
-    "url": "http://github.com/L1fescape"
+    "name": "Andrew Kennedy <andrew@akenn.org>",
+    "url": "http://github.com/akenn"
   },
-  "license": "MIT",
-  "directories": {
-    "example": "example",
-    "lib": "lib"
+  "dependencies": {
+    "leapjs": "~0.6.2"
   },
-  "readmeFilename": "README.md",
+  "devDependencies": {
+    "karma": "~0.10"
+  },
   "scripts": {
     "test": "./node_modules/.bin/karma start --single-run --browsers PhantomJS"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/akenn/curtsy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/akenn/curtsy/issues"
+  },
+  "homepage": "https://github.com/akenn/curtsy"
 }
